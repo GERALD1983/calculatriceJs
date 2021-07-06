@@ -1,0 +1,47 @@
+.flexCentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexColonneCentre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  margin: 5px;
+  display: flex;
+  border: 2px solid aqua;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  color: black;
+  width: 100px;
+  height: 100px;
+  font-size: x-large;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: aqua;
+}
+.calculatrice {
+  box-shadow: 5px 1px 5px black;
+  background-color: antiquewhite;
+}
+.resultat {
+  padding: 20px;
+  margin-top: 50px;
+  width: 440px;
+  height: 40px;
+  border: 10px solid antiquewhite;
+  background-color: rgb(199, 184, 184);
+  color: black;
+  font-size: x-large;
+}
+.calculette {
+  background-color: antiquewhite;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 550px;
+}
