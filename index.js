@@ -35,3 +35,6 @@ boutons.forEach((bouton) => {
     console.log(resultat.textContent);
   });
 });
+window.addEventListener("error", () =>
+  alert("Ce calcul ne peut pas être calculer recommencer"),
+);
